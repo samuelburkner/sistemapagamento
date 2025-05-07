@@ -263,7 +263,7 @@
 
     <script>
         // Preço unitário do produto
-        const unitPrice = 1.99;
+        const unitPrice = 15.99;
         let quantity = 1;
         let shippingPrice = 5.99;
         
@@ -345,8 +345,8 @@
         
         // Simular vindo de uma página de produto
         const urlParams = new URLSearchParams(window.location.search);
-        const productName = urlParams.get('product') || 'Nome do Produto';
-        const productImg = urlParams.get('image') || 'https://via.placeholder.com/120';
+        const productName = urlParams.get('product') || 'Ameixa Roxa';
+        const productImg = urlParams.get('image') || 'https://th.bing.com/th/id/R.c7ad0992fabf4b99196fae1de58dd7bc?rik=7AywMiuhuY2zQg&pid=ImgRaw&r=0';
         
         document.getElementById('productTitle').textContent = productName;
         document.getElementById('productImage').src = productImg;
